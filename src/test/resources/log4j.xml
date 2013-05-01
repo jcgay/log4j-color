@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+    <appender name="console" class="com.github.jcgay.log4j.color.appender.AnsiConsoleAppender">
+        <param name="Target" value="System.out"/>
+        <layout class="com.github.jcgay.log4j.color.layout.ColorEnhancedPatternLayout">
+            <param name="ConversionPattern" value="#highlight(%-5p) %c{1} - %m%n"/>
+        </layout>
+    </appender>
+
+    <root>
+        <priority value ="trace" />
+        <appender-ref ref="console" />
+    </root>
+
+</log4j:configuration>
