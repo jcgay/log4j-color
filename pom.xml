@@ -10,7 +10,7 @@
 
     <groupId>fr.jcgay.log4j</groupId>
     <artifactId>log4j-color</artifactId>
-    <version>1.0</version>
+    <version>1.1-SNAPSHOT</version>
 
     <inceptionYear>2013</inceptionYear>
     <url>https://github.com/jcgay/log4j-color</url>
@@ -19,7 +19,7 @@
         <url>https://github.com/jcgay/log4j-color.git</url>
         <connection>scm:git:git://github.com/jcgay/log4j-color.git</connection>
         <developerConnection>scm:git:git@github.com:jcgay/log4j-color.git</developerConnection>
-        <tag>v1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencies>
