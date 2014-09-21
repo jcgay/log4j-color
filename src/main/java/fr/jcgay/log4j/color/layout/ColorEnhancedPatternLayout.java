@@ -1,4 +1,4 @@
-package com.github.jcgay.log4j.color.layout;
+package fr.jcgay.log4j.color.layout;
 
 import org.apache.log4j.EnhancedPatternLayout;
 import org.apache.log4j.Level;

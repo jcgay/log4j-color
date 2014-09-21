@@ -1,4 +1,4 @@
-package com.github.jcgay.log4j.color.layout;
+package fr.jcgay.log4j.color.layout;
 
 import com.tngtech.java.junit.dataprovider.DataProvider;
 import com.tngtech.java.junit.dataprovider.DataProviderRunner;

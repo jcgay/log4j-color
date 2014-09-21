@@ -1,4 +1,4 @@
-package com.github.jcgay.log4j.color.appender;
+package fr.jcgay.log4j.color.appender;
 
 import org.apache.log4j.ConsoleAppender;
 import org.fusesource.jansi.AnsiConsole;

@@ -2,9 +2,9 @@
 <!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
 
 <log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
-    <appender name="console" class="com.github.jcgay.log4j.color.appender.AnsiConsoleAppender">
+    <appender name="console" class="fr.jcgay.log4j.color.appender.AnsiConsoleAppender">
         <param name="Target" value="System.out"/>
-        <layout class="com.github.jcgay.log4j.color.layout.ColorEnhancedPatternLayout">
+        <layout class="fr.jcgay.log4j.color.layout.ColorEnhancedPatternLayout">
             <param name="ConversionPattern" value="#highlight(%-5p) %c{1} - %m%n"/>
         </layout>
     </appender>

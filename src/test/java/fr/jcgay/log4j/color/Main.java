@@ -1,4 +1,4 @@
-package com.github.jcgay.log4j.color;
+package fr.jcgay.log4j.color;
 
 import org.apache.log4j.Logger;
 
